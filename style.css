@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.title-elements{
+    background: rgb(231, 224, 224);
+    border-radius: 5%;
+    display:inline-flex;
+    height: 30px;
+    padding: 20px;
+    margin: 0px auto;
+}
+.title-elements img{
+    padding: 0 15px;
+    height: 30px;
+    width: 40px;
+}
+.data-map{
+    display: inline-flex;
+    margin-left:30px ;
+}
+.number-cases{
+    padding: 15px;
+}
+.number-cases table{
+    width: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.925);
+    color: white;
+    padding: 20px;
+    padding: 0;;
+    border: 1px solid rgb(119, 118, 118);
+    border-collapse: collapse;
+}
+.number-cases table tr{
+    height: 30px;
+    border: 1px solid rgb(119, 118, 118);
+}
+#uno{
+    background: rgb(223, 217, 217);
+    color: rgb(223, 217, 217);
+    
+}
+#dos{
+    background: rgb(235, 209, 209);
+    
+}
+#tres{
+    background: rgb(233, 193, 193);
+    
+}
+#cuatro{
+    background: rgb(230, 149, 149);
+    
+}
+#cinco{
+    background: rgb(231, 120, 120);
+    
+}
+#seis{
+    background: rgb(224, 77, 77);
+    
+}
+#siete{
+    background: rgb(224, 30, 30);
+    
+}
+#ocho{
+    background: rgb(158, 29, 29);
+    
+}
+#nueve{
+    background: rgb(121, 27, 27);
+    
+}
+#diez{
+    background: rgb(65, 18, 18);
+    
+}
+.td-dark{
+    background: rgb(1, 0, 12);
+    color: white;
+}
+.td-dark th{
+    font-weight: lighter;
+    border-bottom: 1px solid grey;
+}
+.table-states{
+    border-collapse: collapse;
+    margin: 30px;
+    width: 60%;
+    text-align: center;
+    line-height: 30px;
+}
+.table-states tr{
+    border-bottom: 1px solid grey;
+}
+.icon-states{
+    height: 100%;
+    margin: 15px;
+    display: flex ;
+    flex-wrap: wrap;
+}
+.container-icons{
+    display: inline-flex;
+    position: absolute;
+}
+.div-container{
+    margin: 5px;
+}
+.div-container-data{
+    margin: auto;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #999;
+    color: gray;
+    font-weight: bold;
+}
+.div-container-data p{
+    text-align: center;
+    padding-top: 15px;
+}
+.div-container-button button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background: white;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+    background: rgb(8, 73, 192);
+}
+.div-container-title{
+    margin: auto;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px;
+}
